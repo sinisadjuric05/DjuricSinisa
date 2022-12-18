@@ -60,6 +60,29 @@ public class Circle {
 		}
 		return false;
 	}
+    public Point getCenter() {
+        return center;
+    }
+
+    public void setCenter(Point center) {
+        this.center = center;
+    }
+
+    public double getR() {
+        return r;
+    }
+
+    public void setR(int r) {
+        this.r = r;
+    }
+
+    public boolean isSlected() {
+        return selected;
+    }
+
+    public void setSlected(boolean slected) {
+        this.selected = selected;
+    }
 	
 
 }

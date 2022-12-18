@@ -18,6 +18,11 @@ public class Test {
 		System.out.println(p.equals(p1));
 		System.out.println(p.equals(p2));
 		System.out.println(l.equals(l));
+        Point t1 = new Point(5,6);
+        Circle c1 = new Circle(tacka1,8);
+        Donut d1 = new Donut(tacka1, 8,3);
+        Donut d2 = new Donut(tacka1, 9,3);
+        System.out.println(d2.equals(d));
 	}
 
 } 
