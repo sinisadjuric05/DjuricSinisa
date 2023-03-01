@@ -4,7 +4,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		Vozac vozac1 = new Vozac("Sinisa","Djuric",0309005890013, false);
+		Vozac vozac1 = new Vozac("Sinisa","Djuric",3, false);
 		System.out.println(vozac1.toString());
 		
 		Vozilo vozilo = new Vozilo("019jk", "Automobil", vozac1);
